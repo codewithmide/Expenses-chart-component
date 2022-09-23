@@ -37,8 +37,8 @@ html {
 }
 
 main {
-    height: 80%;
-    width: 35%;
+    height: 65%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
