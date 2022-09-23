@@ -113,7 +113,7 @@ canvas {
 }
 
 hr {
-    background-color: var(--non-active-chart-and-top-section-color);
+    border: 0.2px solid var(--non-active-chart-and-top-section-color);
     width: 85%;
 }
 
