@@ -87,7 +87,7 @@ var ctxm = document.getElementById("mobile_chart").getContext("2d");
                     43.28,
                     25.48
                 ],
-                barThickness: 37,
+                barThickness: 35,
                 fill: true,
                 borderRadius: 5,
                 backgroundColor: [
