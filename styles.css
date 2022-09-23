@@ -173,17 +173,6 @@ footer {
 }
 
 
-@media only screen and (max-width: 1024px) {
-    main {
-        width: 50%;
-        height: 80%;
-    }
-    
-    .mobile {
-        display: none !important;
-    }
-}
-
 @media only screen and (max-width: 992px) {
     main {
         width: 70%;
