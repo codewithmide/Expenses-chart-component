@@ -105,6 +105,7 @@ main {
     width: 100%;
     padding: 1rem 0 0 3rem;
     text-align: left;
+    font-size: var(--small-text);
 }
 
 canvas {
@@ -112,7 +113,7 @@ canvas {
 }
 
 hr {
-    border: .5px solid var(--non-active-chart-and-top-section-color);
+    background-color: var(--non-active-chart-and-top-section-color);
     width: 85%;
 }
 
@@ -197,7 +198,7 @@ footer {
 @media only screen and (max-width: 620px) {
     main {
         width: 90%;
-        height: 60%;
+        height: 65%;
     }
 
     .desktop {
