@@ -5,7 +5,7 @@
     --bottom-section-bg-color: hsl(60, 50%, 98%);
     --big-text: 26px;
     --medium-text: 22px;
-    --small-text: 10px;
+    --small-text: 12px;
     --bottom-small-text-color: hsl(28, 10%, 53%);
     --bottom-big-and-medium-text-color: hsl(25, 47%, 15%);
     --non-active-chart-and-top-section-color: hsl(10, 79%, 65%);
@@ -37,7 +37,7 @@ html {
 }
 
 main {
-    height: 75%;
+    height: 80%;
     width: 35%;
     display: flex;
     flex-direction: column;
@@ -65,7 +65,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: var(--bg-color);
+    color: var(--bottom-section-bg-color);
 }
 
 .balance-section {
@@ -103,13 +103,55 @@ main {
 
 .spending {
     width: 100%;
-    padding-left: 3rem;
+    padding: 1rem 0 0 3rem;
     text-align: left;
 }
 
 canvas {
     padding: 1.5rem;
 }
+
+hr {
+    border: .5px solid var(--non-active-chart-and-top-section-color);
+    width: 85%;
+}
+
+.total {
+    width: 85%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.this-month > p,
+.last-month > p {
+    font-size: var(--small-text);
+    color: var(--bottom-small-text-color);
+}
+
+.this-month > h3 {
+    font-size: var(--big-text);
+    color: var(--bottom-big-and-medium-text-color);
+    font-weight: var(--thick);
+}
+
+.last-month > small {
+    font-size: var(--small-text);
+    text-align: right;
+    width: 100%;
+    font-weight: var(--thick);
+    color: var(--bottom-big-and-medium-text-color);
+}
+
+.last-month {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+    align-items: flex-start;
+}
+
 
 .attribution {
     font-size: 11px;
