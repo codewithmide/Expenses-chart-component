@@ -3,8 +3,8 @@
 :root {
     --bg-color: hsl(27, 66%, 92%);
     --bottom-section-bg-color: hsl(60, 50%, 98%);
-    --big-text: 26px;
-    --medium-text: 22px;
+    --big-text: 28px;
+    --medium-text: 20px;
     --small-text: 12px;
     --bottom-small-text-color: hsl(28, 10%, 53%);
     --bottom-big-and-medium-text-color: hsl(25, 47%, 15%);
@@ -160,4 +160,47 @@ hr {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+
+.mobile {
+    display: none !important;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    main {
+        width: 50%;
+        height: 80%;
+    }
+    
+    .mobile {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    main {
+        width: 70%;
+        height: 60%;
+    }
+    
+    .mobile {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    main {
+        width: 90%;
+        height: 60%;
+    }
+
+    .desktop {
+        display: none !important;
+    }
+
+    .mobile {
+        display: block !important;
+    }
 }
