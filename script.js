@@ -22,7 +22,7 @@ var ctx = document.getElementById("my_chart").getContext("2d");
                     43.28,
                     25.48
                 ],
-                barThickness: 52,
+                barThickness: 50,
                 fill: true,
                 borderRadius: 5,
                 backgroundColor: [
